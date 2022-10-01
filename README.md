@@ -69,3 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+https://naturalpic.netlify.app/
+
+Esta aplicacion tuvo ayudantia del Querisimo Juan Gonzalez y el profe Cristian Zuñiga en conjunto con un muy buen grupo humano tales como superSeba valePregunta YareAnime y MarcoHablaPorfa. espero sea de su agrado.
