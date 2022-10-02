@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import { MyContext } from "../MyContext";
+import { imgContext } from "../imgProvider";
 
 const Favorites = () => {
-  const { data } = useContext(MyContext);
+  const { data } = useContext(imgContext);
   return (
     <div>
     <div className="title">

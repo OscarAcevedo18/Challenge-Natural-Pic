@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AppProvider from "./MyContext";
+import AppProvider from "./imgProvider";
 import Favorites from "./views/Favorites";
 import Navbar from "./components/Navbar";
 import Home from "./views/Home";

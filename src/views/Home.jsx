@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { MyContext } from "../MyContext";
+import { imgContext } from "../imgProvider";
 import Heart from "../components/Heart";
 
 const Home = () => {
-  const { data, setData } = useContext(MyContext);
+  const { data, setData } = useContext(imgContext);
   const blod = (idImg) => {
     setData((current) =>
       current.map((obj) => {

@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from "react";
 
-export const MyContext = createContext();
+export const imgContext = createContext();
 
 const AppProvider = ({ children }) => {
   const [data, setData] = useState([]);
@@ -17,14 +17,14 @@ const AppProvider = ({ children }) => {
   }, []);
 
   return (
-    <MyContext.Provider
+    <imgContext.Provider
       value={{
         data,
         setData,
       }}
     >
       {children}
-    </MyContext.Provider>
+    </imgContext.Provider>
   );
 };
 
